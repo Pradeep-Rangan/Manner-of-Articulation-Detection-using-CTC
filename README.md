@@ -8,6 +8,11 @@ Training a manner of articulation CTC detector
 2. Change the text transcriptions of the An4 data such that it contains only manner information
 3. Create the labelsManner.json and train the model using standard deepSpeech pytorch
 
+Download the baseline models trained on AN4 dataset at https://www.dropbox.com/sh/6qbk8isdrublavf/AAChoUr9RBMTXQNlsUcoTGTTa?dl=0
+
+Download the pre-trained models of manner CTC detector  at https://www.dropbox.com/sh/2err7m6kromset7/AADX6i4IXxrQva3OVpBbX_7ta?dl=0
+
+
 
 The pre-trained baseline models are saved in 'models/deepspeech_final.pth'
 
