@@ -19,8 +19,11 @@ The pre-trained baseline models are saved in 'models/deepspeech_final.pth'
 The manner of articulation CTC models are saved in 'modelsAn4Manner/deepspeech_final.pth'
 
 Testing Phase:
+
 Pre-requsite: Run python data/An4.py (of the standard recipie to get the data csv files such as an4_train_manifest.csv and an4_val_manifest.csv)
-Now run
+
+Now run:
+
 python testBaseline.py --val-manifest data/an4_val_manifest.csv --cuda
 
 Expected output is as shown below:
